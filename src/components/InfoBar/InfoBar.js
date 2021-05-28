@@ -6,13 +6,13 @@ const InfoBar = ({room}) => {
     return (
         <div className="infoBar">
             <div className="leftInnerContainer">
-             <img className="onlineIcon" src={onlineIcon} alt="onlinr image"/>
+             <img className="onlineIcon" src={onlineIcon} alt="userisonlineimage"/>
              <h3>
                  {room}
              </h3>
             </div>
             <div className="rightInnerContainer">
-             <a href="/"> <img src={closeIcon} alt="close image"/></a>
+             <a href="/"> <img src={closeIcon} alt="closethechatimage"/></a>
             </div>
             
         </div>
